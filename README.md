@@ -140,7 +140,7 @@ Now inside the videos folder in either `assets/preload/videos` or `assets/videos
 You can edit `VideoState.hx` all you want but the usage of the `VideoState` class is pretty simple. \
 The return must be a new class but i made a separate `VideoState.hx` file inside the `function` folder in this repository to change the callback to a function.
 ```js
-FlxG.switchState(new VideoState('yoursourcevideo.webm', callback either new YourClass() or function() { Code here }));
+FlxG.switchState(new VideoState('assets/videos/yoursourcevideo.webm', callback either new YourClass() or function() { Code here }));
 ```
 # End of the document
 Thank you for taking your time to read the entire repository ReadMe file. \
