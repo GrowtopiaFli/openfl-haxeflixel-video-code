@@ -97,7 +97,7 @@ You need to do an extra step
 You must know how to use cmd or `Command Prompt`
 (sorry but this is only for `64 bit` architectures)
 1. Download ffmpeg
-https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-05-14-20-06/ffmpeg-n4.4-15-ge87e006121-win64-gpl-shared-4.4.zip
+https://github.com/BtbN/FFmpeg-Builds/releases
 2. Extract the zip file to your choice
 3. Go inside the `bin` folder inside the extracted zip file
 4. Open `Command Prompt`
