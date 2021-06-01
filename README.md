@@ -2,7 +2,9 @@
 This is my research on how to play videos in openfl haxeflixel (webm only supported)
 # How To Setup
 BEFORE SETUP don't be fucking benlonghair a backstabbing bitch \
+https://gamebanana.com/wips/admin/flags/55898 he is horrible \
 https://www.twitch.tv/iambenlonghair \
+he broke my trust and friendship \
 (btw this is for `Friday Night Funkin`)
 1. Download the Friday Night Funkin source code in https://github.com/ninjamuffin99/Funkin and follow `EVERYTHING` (including the git part which is very important) (make sure its the new file system otherwise you need to put extra code `which i have the solution for lol`)
 2. Install actuate by doing `haxelib install actuate`
