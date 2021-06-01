@@ -1,7 +1,7 @@
 # GWebDev FNF Video Code
 This is my research on how to play videos in openfl haxeflixel (webm only supported)
 # How To Setup
-BEFORE TO SETUP dont be fucking benlonghair a backstabber that bitch \
+BEFORE SETUP don't be fucking benlonghair a backstabber that bitch \
 https://www.twitch.tv/iambenlonghair \
 (btw this is for `Friday Night Funkin`) \
 1. Download the Friday Night Funkin source code in https://github.com/ninjamuffin99/Funkin and follow `EVERYTHING` (including the git part which is very important) (make sure its the new file system otherwise you need to put extra code `which i have the solution for lol`)
