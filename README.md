@@ -143,6 +143,7 @@ The return must be a new class but i made a separate `VideoState.hx` file inside
 ```js
 FlxG.switchState(new VideoState('assets/videos/yoursourcevideo.webm', callback either new YourClass() or function() { Code here }));
 ```
+WARNING WARNING! function is very unstable and won't work do not copy the contents of the `function` folder please and also you make your own class with code or something idk i won't be your coding teacher ask kadedev or something idk
 # End of the document
 Thank you for taking your time to read the entire repository ReadMe file. \
 This is the end of the document i hope you understood everything i wrote for you to play videos in `Friday Night Funkin`. \
