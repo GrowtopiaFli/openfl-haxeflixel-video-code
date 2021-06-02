@@ -95,7 +95,7 @@ Create a new folder named `videos` inside assets
 # Setting up the desktop build
 For all you windows users out there
 You need to do an extra step
-You must know how to use cmd or `Command Prompt`
+You must know how to use cmd or `Command Prompt` or `Terminal` for mac or something idk i don't have a mac \
 (sorry but this is only for `64 bit` architectures)
 1. Download ffmpeg
 https://github.com/BtbN/FFmpeg-Builds/releases (please download the gpl shared version there is also download for mac please download ffprobe: https://evermeet.cx/ffmpeg)
