@@ -98,7 +98,7 @@ You need to do an extra step
 You must know how to use cmd or `Command Prompt`
 (sorry but this is only for `64 bit` architectures)
 1. Download ffmpeg
-https://github.com/BtbN/FFmpeg-Builds/releases (please download the gpl shared version)
+https://github.com/BtbN/FFmpeg-Builds/releases (please download the gpl shared version there is also download for mac please download ffprobe: https://evermeet.cx/ffmpeg)
 2. Extract the zip file to your choice
 3. Go inside the `bin` folder inside the extracted zip file
 4. Open `Command Prompt`
