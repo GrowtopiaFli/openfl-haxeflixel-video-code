@@ -1,15 +1,12 @@
 # GWebDev FNF Video Code
 This is my research on how to play videos in openfl haxeflixel (webm only supported)
 # How To Setup
-BEFORE SETUP don't be fucking benlonghair a backstabbing bitch \
-https://gamebanana.com/wips/admin/flags/55898 he is horrible \
-https://www.twitch.tv/iambenlonghair \
-he broke my trust and friendship \
+BEFORE SETUP apologies to benlonghair the war has ended ok so \
 (btw this is for `Friday Night Funkin`)
 1. Download the Friday Night Funkin source code in https://github.com/ninjamuffin99/Funkin and follow `EVERYTHING` (including the git part which is very important) (make sure its the new file system otherwise you need to put extra code `which i have the solution for lol`)
 2. Install actuate by doing `haxelib install actuate`
 3. Install the extension-webm fork by doing `haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm`
-4. It won't work lol so type the command `lime rebuild extension-webm windows`
+4. It won't work lol so type the command `lime rebuild extension-webm [windows/mac/linux]` (depends on your device)
 (sry idk how to fix this for mac)
 5. Download the zip of this repository and copy paste the files inside the `source` folder to your fnf source code's `source` folder
 6. Edit the `Main.hx` file in the fnf source code \
@@ -101,7 +98,7 @@ You need to do an extra step
 You must know how to use cmd or `Command Prompt`
 (sorry but this is only for `64 bit` architectures)
 1. Download ffmpeg
-https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-05-14-20-06/ffmpeg-n4.4-15-ge87e006121-win64-gpl-shared-4.4.zip
+https://github.com/BtbN/FFmpeg-Builds/releases (please download the gpl shared version)
 2. Extract the zip file to your choice
 3. Go inside the `bin` folder inside the extracted zip file
 4. Open `Command Prompt`
