@@ -1,3 +1,5 @@
+//do not use this unstable shit
+/*
 package;
 
 import flixel.FlxState;
@@ -211,4 +213,4 @@ class VideoState extends MusicBeatState
 		GlobalVideo.get().stopped = false;
 		GlobalVideo.get().ended = false;
 	}
-}
+}*/
