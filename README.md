@@ -143,7 +143,7 @@ The return must be a new class but i made a separate `VideoState.hx` file inside
 ```js
 FlxG.switchState(new VideoState('assets/videos/yoursourcevideo.webm', new YourClass(), your frameskip limit which you can leave blank or put a frameskip limit you can fill this parameter voluntarily and it must be an integer not a decimal));
 ```
-YourClass is your callback class which it transitions to it once the video ends so you put your own logic idk \
+YourClass is your callback class which is called once the video ends so you put your own logic idk \
 WARNING WARNING! function is very unstable and won't work do not copy the contents of the `function` folder please and also you make your own class with code or something idk i won't be your coding teacher ask kadedev or something idk
 # End of the document
 Thank you for taking your time to read the entire repository ReadMe file. \
