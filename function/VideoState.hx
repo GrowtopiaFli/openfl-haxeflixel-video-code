@@ -97,7 +97,7 @@ class VideoState extends MusicBeatState
 			GlobalVideo.get().restart();
 		} else {
 			GlobalVideo.get().play();
-		}
+		}*/
 		
 		/*if (useSound)
 		{*/
@@ -105,7 +105,7 @@ class VideoState extends MusicBeatState
 		
 			/*new FlxTimer().start(0.1, function(tmr:FlxTimer)
 			{*/
-				vidSound.time = vidSound.length * soundMultiplier;
+				//vidSound.time = vidSound.length * soundMultiplier;
 				/*new FlxTimer().start(1.2, function(tmr:FlxTimer)
 				{
 					if (useSound)
@@ -113,12 +113,12 @@ class VideoState extends MusicBeatState
 						vidSound.time = vidSound.length * soundMultiplier;
 					}
 				}, 0);*/
-				doShit = true;
+				//doShit = true;
 			//}, 1);
 		//}
-	}
+	//}
 	
-	override function update(elapsed:Float)
+	/*override function update(elapsed:Float)
 	{
 		super.update(elapsed);
 		
