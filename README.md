@@ -141,9 +141,11 @@ Now inside the videos folder in either `assets/preload/videos` or `assets/videos
 You can edit `VideoState.hx` all you want but the usage of the `VideoState` class is pretty simple. \
 The return must be a new class but i made a separate `VideoState.hx` file inside the `function` folder in this repository to change the callback to a function.
 ```js
-FlxG.switchState(new VideoState('assets/videos/yoursourcevideo.webm', new YourClass(), your frameskip limit which you can leave blank or put a frameskip limit you can fill this parameter voluntarily and it must be an integer not a decimal));
+FlxG.switchState(new VideoState('assets/videos/yoursourcevideo.webm', new YourClass(), your frameskip limit which you can leave blank or put a frameskip limit you can fill this parameter voluntarily and it must be an integer not a decimal, [true/false] (if it is true, the music playing will automatically be paused, this is good for midway videos while playing or idk for pausing the game and showing the video cutscene)));
 ```
 YourClass is your callback class which is called once the video ends so you put your own logic idk \
+Frameskip limit should be an integer not a decimal \
+enter true or false for music auto pause and resume \
 WARNING WARNING! function is very unstable and won't work do not copy the contents of the `function` folder please and also you make your own class with code or something idk i won't be your coding teacher ask kadedev or something idk
 # End of the document
 Thank you for taking your time to read the entire repository ReadMe file. \

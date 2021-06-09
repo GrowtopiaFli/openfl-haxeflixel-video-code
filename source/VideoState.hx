@@ -32,10 +32,14 @@ class VideoState extends MusicBeatState
 	public var defaultText:String = "";
 	public var doShit:Bool = false;
 	public var pauseText:String = "Press P To Pause/Unpause";
+	public var autoPause:Bool = false;
+	public var musicPaused:Bool = false;
 
-	public function new(source:String, toTrans:FlxState, frameSkipLimit:Int = -1)
+	public function new(source:String, toTrans:FlxState, frameSkipLimit:Int = -1, autopause:Bool = false)
 	{
 		super();
+		
+		autoPause = autopause;
 		
 		leSource = source;
 		transClass = toTrans;
@@ -117,6 +121,12 @@ class VideoState extends MusicBeatState
 				doShit = true;
 			//}, 1);
 		//}
+		
+		if (autoPause && FlxG.sound.music != null && FlxG.sound.music.playing)
+		{
+			musicPaused = true;
+			FlxG.sound.music.pause();
+		}
 	}
 	
 	override function update(elapsed:Float)
@@ -199,6 +209,11 @@ class VideoState extends MusicBeatState
 			notDone = false;
 			FlxG.sound.music.volume = fuckingVolume;
 			txt.text = pauseText;
+			if (musicPaused)
+			{
+				musicPaused = false;
+				FlxG.sound.music.resume();
+			}
 			FlxG.autoPause = true;
 			FlxG.switchState(transClass);
 		}
