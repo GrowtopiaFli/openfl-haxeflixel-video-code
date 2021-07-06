@@ -6,6 +6,7 @@ BEFORE SETUP apologies to benlonghair the war has ended ok so \
 1. Download the Friday Night Funkin source code in https://github.com/ninjamuffin99/Funkin and follow `EVERYTHING` (including the git part which is very important) (make sure its the new file system otherwise you need to put extra code `which i have the solution for lol`)
 2. Install actuate by doing `haxelib install actuate`
 3. Install the extension-webm fork by doing `haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm`
+`If You Are On Mac Please Download XCode In The App Store Before Proceeding`
 4. It won't work lol so type the command `lime rebuild extension-webm [windows/mac/linux]` (depends on your device)
 (sry idk how to fix this for mac)
 5. Download the zip of this repository and copy paste the files inside the `source` folder to your fnf source code's `source` folder
@@ -101,7 +102,7 @@ You must know how to use cmd or `Command Prompt` or `Terminal` for mac or someth
 https://github.com/BtbN/FFmpeg-Builds/releases (please download the gpl shared version there is also download for mac please download ffprobe: https://evermeet.cx/ffmpeg)
 2. Extract the zip file to your choice
 3. Go inside the `bin` folder inside the extracted zip file
-4. Open `Command Prompt`
+4. Open `Command Prompt` or `Terminal`
 5. Change directory inside the `bin` folder
 6. `More on this later`
 # Understanding of how video works
@@ -126,7 +127,7 @@ Well in webm player there is `NO` audio support because it's broken lol so now w
 My solution is to `Audio Sync` a way of Synchronizing the audio version of the video to the video `You must have an ogg file either just the video's audio or just empty audio that lasts as long as the video's time (i made a solution so if you don't have audio on your video then just don't make an ogg file)`. \
 So back to that ffmpeg change directory folder is a ffprobe command template i have
 ```cmd
-ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nokey=1:noprint_wrappers=1 "yourvideo.mp4"
+./ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames -of default=nokey=1:noprint_wrappers=1 "yourvideo.mp4"
 ```
 Ok so my recommendation is to Convert your video to webm then convert that webm to an mp4 because sometimes there are frame losses to webm files which fails the `Audio Sync`. \
 This command logs the number of frames your video has and now you may ask. \
