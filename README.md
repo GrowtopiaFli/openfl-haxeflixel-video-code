@@ -7,7 +7,7 @@ BEFORE SETUP apologies to benlonghair the war has ended ok so \
 2. Install actuate by doing `haxelib install actuate`
 3. Install the extension-webm fork by doing `haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm` \
 `If You Are On Mac Please Download XCode In The App Store Before Proceeding` \
-`If You Are On Linux Please Run This Command With The Packages Or Similar `**sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev g++ g++-multilib gcc-multilib libasound2-dev libx11-dev libxext-dev libxi-dev libxrandr-dev libxinerama-dev**
+`If You Are On Linux Please Run This Command With The Packages Or Similar` **sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev g++ g++-multilib gcc-multilib libasound2-dev libx11-dev libxext-dev libxi-dev libxrandr-dev libxinerama-dev**
 4. It won't work lol so type the command `lime rebuild extension-webm [windows/mac/linux]` (depends on your device)
 5. Download the zip of this repository and copy paste the files inside the `source` folder to your fnf source code's `source` folder
 6. Edit the `Main.hx` file in the fnf source code \
