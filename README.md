@@ -7,6 +7,7 @@ ALSO IF YOU ARE IN LINUX OR MAC AND THE COMMAND `lime` DOES NOT WORK BUT YOU INS
 1. Download the Friday Night Funkin source code in https://github.com/ninjamuffin99/Funkin and follow `EVERYTHING` (including the git part which is very important) (make sure its the new file system otherwise you need to put extra code `which i have the solution for lol`)
 2. Install actuate by doing `haxelib install actuate`
 3. Install the extension-webm fork by doing `haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm` \
+ \
 `If You Are On Mac Please Download XCode In The App Store Before Proceeding` \
 `If You Are On Linux Please Run This Command With The Packages Or Similar` \
  \
