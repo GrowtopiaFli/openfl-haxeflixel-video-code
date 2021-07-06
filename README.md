@@ -10,13 +10,19 @@ ALSO IF YOU ARE IN LINUX OR MAC AND THE COMMAND `lime` DOES NOT WORK BUT YOU INS
 `If You Are On Mac Please Download XCode In The App Store Before Proceeding` \
 `If You Are On Linux Please Run This Command With The Packages Or Similar` \
  \
-**`sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev g++ g++-multilib gcc-multilib libasound2-dev libx11-dev libxext-dev libxi-dev libxrandr-dev libxinerama-dev`**
+**`sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev g++ g++-multilib gcc-multilib libasound2-dev libx11-dev libxext-dev libxi-dev libxrandr-dev libxinerama-dev`** \
+
 4. It won't work lol so type the command `lime rebuild extension-webm [windows/mac/linux/android]` (depends on your device) \
+ \
 **EXTRA STEP FOR ANDROID!** \
+ \
 Run These Commands: \
+ \
 `lime config HXCPP_ARM64 true` \
 `lime config HXCPP_x86 true` \
+ \
 STILL PRETTY UNSTABLE THO! \
+ \
 ALSO IF YOU ARE IN ANDROID FOLLOW THE ANDROID STUDIO INSTRUCTIONS IN https://github.com/luckydog7/Funkin-android
 5. Download the zip of this repository and copy paste the files inside the `source` folder to your fnf source code's `source` folder
 6. Edit the `Main.hx` file in the fnf source code \
