@@ -39,7 +39,7 @@ addChild(new FPS(10, 3, 0xFFFFFF));
 #end
 ```
 The code
-```js
+```hx
 var ourSource:String = "assets/videos/DO NOT DELETE OR GAME WILL CRASH/dontDelete.webm";
 
 #if web
