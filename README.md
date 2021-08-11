@@ -29,11 +29,11 @@ ALSO IF YOU ARE IN ANDROID FOLLOW THE ANDROID STUDIO INSTRUCTIONS IN https://git
 5. Download the zip of this repository and copy paste the files inside the `source` folder to your fnf source code's `source` folder
 6. Edit the `Main.hx` file in the fnf source code \
 Then add after the code
-```js
+```hx
 addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, updateframerate, drawframerate, skipSplash, startFullscreen));
 ```
 And before code
-```js
+```hxh
 #if !mobile
 addChild(new FPS(10, 3, 0xFFFFFF));
 #end
@@ -62,7 +62,7 @@ GlobalVideo.setWebm(webmHandle);
 #end
 ```
 So it would look something like
-```js
+```hx
 addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, updateframerate, drawframerate, skipSplash, startFullscreen));
 		
 var ourSource:String = "assets/videos/DO NOT DELETE OR GAME WILL CRASH/dontDelete.webm";
