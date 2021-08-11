@@ -33,7 +33,7 @@ Then add after the code
 addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, updateframerate, drawframerate, skipSplash, startFullscreen));
 ```
 And before code
-```hxh
+```hx
 #if !mobile
 addChild(new FPS(10, 3, 0xFFFFFF));
 #end
